@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: "Montserrat", sans-serif;
+    list-style: none;
+    color: #fff;
+    border: none;
+}
+
+body{
+    height: 100vh;
+}
+
+main{
+    width: 100vw;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(0, 0, 0,0.98), rgb(15, 0, 32, 0.98),rgb(6, 0, 17, 0.98)), url(../LOGIN\ 2\ practica/[GetPaidStock.com]-6602f6847c42d.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main > h2{
+    width: 100%;
+    position: absolute;
+    bottom:60%;
+    text-align: center;
+    /* font-size: 200px; */
+    font-weight: 900;
+    opacity: 0.070;
+}
+.content{
+    flex-wrap: wrap;
+    position: relative;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-top:150px;
+    z-index: 1;
+}
+
+
+
+.form__encabezado{
+    margin-top: 30px;
+}
+
+.form__encabezado h3{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+img[src="MARCA CINE PLUS.png"]{
+    width: 130px;
+    position: relative;
+    top: 10px;
+}
+
+img[src="../LOGIN 2 practica/popcorn-and-cola-4843359-4060925.png"]{
+    width: 350px;
+    position: relative;
+    filter: drop-shadow(1px 1px 10px rgba(123, 0, 255, 0.3));
+    transition: filter 0.6s ease;
+}
+
+img[src="../LOGIN 2 practica/popcorn-and-cola-4843359-4060925.png"]:hover{
+    filter: drop-shadow(0px 0px 15px rgba(123, 0, 255, 0.5));
+}
+
+.form__encabezado h1{
+    font-size: 50px;
+    font-family: "Raleway", sans-serif;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    font-weight: 800;
+    text-shadow: 0 0 10px #ffffff70;
+}
+
+.form__encabezado h1 span{
+    color: rgb(123, 0, 255);
+}
+
+.form__encabezado p{
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+.form__encabezado p > a{
+    color: rgb(123, 0, 255);
+    opacity: 0.7;
+    font-weight: 500;
+}
+
+.form__encabezado p > a:hover{
+    color: rgb(123, 0, 255);
+    opacity: 1;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.content__form input{
+    background-color: transparent;
+    border: 2px solid rgba(70, 70, 70, 0.226);
+    border-radius: 10px;
+    width: 100%;
+    height: 43px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    transition: box-shadow 0.4s ease;
+    transition: border 0.4s ease;
+}
+
+.content__form input + i{
+    position: absolute;
+    left: 48%;
+    padding-top: 10px;
+    opacity: 0.6;
+}
+
+.content__form input:hover{
+    border: 2px solid rgb(123, 0, 255);
+}
+
+input:focus{
+    border: 2px solid rgb(123, 0, 255);
+    box-shadow: 1px 1px 10px rgb(123, 0, 255);
+}
+
+input::placeholder{
+    color: rgb(255, 255, 255);
+    opacity: 0.3;
+}
+
+input:valid{
+    color:rgb(123, 0, 255) ;
+}
+
+input:invalid{
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.content__button{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 50px;
+}
+
+.content__button button{
+    background-color: rgb(53, 53, 53);
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    transition: all 0.5s ease;
+}
+
+.content__button button:hover{
+    background-color:rgb(123, 0, 255);
+    box-shadow: 0 0 10px rgb(123, 0, 255);
+}

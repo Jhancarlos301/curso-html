@@ -1,0 +1,45 @@
+/* FUENTES */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    background: rgb(249, 250, 234);
+    font-family:"Montserrat";
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;    
+    font-size:xx-large;
+    text-transform: capitalize;
+}
+
+.link{
+    font-family: "DM Sans";
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
+
+form{
+    width: 50%;
+
+}
+.cajas_input{
+    width: 50%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    border-color: transparent;
+}
+
+.perfil{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: top;
+    margin: auto;
+    border-radius: 100%;
+    border: 3px solid rgb(200, 200, 200);
+}
